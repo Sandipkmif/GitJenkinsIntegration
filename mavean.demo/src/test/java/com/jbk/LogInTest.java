@@ -9,7 +9,7 @@ import org.testng.annotations.Test;
 public class LogInTest {
 	@Test
 	public void test01() {
-		System.setProperty("webdriver.chrome.driver", "chromedriver.exe");
+		System.setProperty("webdriver.chrome.driver", "C:/chromedriver.exe");
 		WebDriver driver = new ChromeDriver();
 		driver.get("file:///E:/Selenium/javabykiran-Selenium-Softwares/javabykiran-Selenium-Softwares/Offline%20Website/index.html");
 		

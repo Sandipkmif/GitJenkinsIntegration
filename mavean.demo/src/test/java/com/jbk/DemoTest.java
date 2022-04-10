@@ -8,7 +8,7 @@ public class DemoTest {
 	
 	@Test
 	public void demotest1(){
-		System.setProperty("webdriver.driver.chrome", "chromedriver.exe");
+		System.setProperty("webdriver.driver.chrome", "C:/chromedriver.exe");
 		WebDriver driver=new ChromeDriver();
 		driver.get("file:///E:/Selenium/javabykiran-Selenium-Softwares/javabykiran-Selenium-Softwares/Offline%20Website/index.html");
 		
